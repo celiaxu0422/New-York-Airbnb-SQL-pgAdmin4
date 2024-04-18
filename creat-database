@@ -1,3 +1,5 @@
+-- =================================
+
 CREATE TABLE bookings (
 	booking_id INT PRIMARY KEY,
 	listing_name VARCHAR,
@@ -16,3 +18,9 @@ CREATE TABLE bookings (
 	calculated_host_listings_count INT,
 	availability_365 INT
 );
+
+
+-- my psql command line command
+-- \COPY bookings FROM '/Users/apple/Downloads/archive (2)/AB_NYC_2019.csv' DELIMITER ',' CSV HEADER ENCODING 'utf8'
+
+
